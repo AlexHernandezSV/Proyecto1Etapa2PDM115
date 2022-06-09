@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="ID Ciclo"/>
+        <EditText
+            android:id="@+id/edtId_ciclo"
+            android:inputType="text"
+            android:maxLength="7" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Ciclo" />
+        <EditText
+            android:id="@+id/edtCiclo"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Fecha de inicio" />
+        <EditText
+            android:id="@+id/edtFecha_inicio"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Fecha de finalización" />
+        <EditText
+            android:id="@+id/edtFecha_fin"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnAgregar"
+            android:text="Insertar" />
+    </TableRow>
+</TableLayout>
