@@ -10,8 +10,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
-    String[] menu={"Ciclos"};
-    String[] activities={"CicloInsertarActivity"};
+    String[] menu={"Ciclos", "Tipo de Actividad"};
+    String[] activities={"CicloInsertarActivity","TipoActividadInsertarActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
