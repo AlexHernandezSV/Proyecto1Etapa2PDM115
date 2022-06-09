@@ -10,8 +10,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
-    String[] menu={"Ciclos", "Tipo de Actividad", "Insertar Horario", "Consultar Horario"};
-    String[] activities={"CicloInsertarActivity","Insertar Actividad", "HorarioInsertarActivity", "HorarioConsultarActivity"};
+    String[] menu={"Ciclos", "Tipo de Actividad", "Insertar Horario", "Consultar Horario","Carrera"};
+    String[] activities={"CicloInsertarActivity","Insertar Actividad", "HorarioInsertarActivity", "HorarioConsultarActivity","CarreraInsertarActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onListItemClick(ListView l,View v,int position,long id) {
         super.onListItemClick(l, v, position, id);
-        if (position != 4) {
+        if (position != 5) {
             String nombreValue = activities[position];
             try {
                 Class<?>
