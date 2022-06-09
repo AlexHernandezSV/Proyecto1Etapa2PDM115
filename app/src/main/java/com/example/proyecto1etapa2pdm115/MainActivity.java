@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
     String[] menu={"Ciclos", "Tipo de Actividad", "Insertar Horario", "Consultar Horario","Carrera"};
-    String[] activities={"CicloInsertarActivity","Insertar Actividad", "HorarioInsertarActivity", "HorarioConsultarActivity","CarreraInsertarActivity"};
+    String[] activities={"CicloInsertarActivity","TipoActividadInsertarActivity", "HorarioInsertarActivity", "HorarioConsultarActivity","CarreraInsertarActivity"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
