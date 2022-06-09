@@ -38,4 +38,9 @@
             android:id="@+id/btnAgregar"
             android:text="Insertar" />
     </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnBuscar"
+            android:text="Consultar" />
+    </TableRow>
 </TableLayout>

@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
-    String[] menu={"Insertar Ciclo"};
+    String[] menu={"Ciclos"};
     String[] activities={"CicloInsertarActivity"};
 
     @Override
