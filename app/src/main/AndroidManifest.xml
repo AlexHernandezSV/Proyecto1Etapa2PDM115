@@ -18,6 +18,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".HorarioConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HorarioInsertarActivity"
+            android:exported="false" />
+        <activity
             android:name=".TipoActividadInsertarActivity"
             android:exported="false" />
         <activity
